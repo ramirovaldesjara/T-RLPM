@@ -27,6 +27,11 @@ PYTHONUNBUFFERED=1 python tools/train.py --config configs/mask_sac/transformer_a
 ```
 
 # Reference code
+ElegantRL: https://github.com/AI4Finance-Foundation/ElegantRL
+
+RL-Adventure: https://github.com/higgsfield/RL-Adventure
+
+Qlib: https://github.com/microsoft/qlib
 
 EarnMore: https://github.com/DVampire/EarnMore
 
