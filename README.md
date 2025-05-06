@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 # RUN
 ```
-PYTHONUNBUFFERED=1 python tools/train.py --config configs/mask_sac/transformer_attn_mask_sac_pm.py
+PYTHONUNBUFFERED=1 python tools/train.py --config configs/transformer_attn_mask_sac_pm.py
 ```
 
 # Reference code
