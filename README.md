@@ -9,6 +9,10 @@ T-RLPM is a transformer-based reinforcement learning framework for dynamic portf
 - Using transformer-style encoders for both the actor and critic networks,
 - Improving risk-adjusted returns over state-of-the-art baselines such as EarnMore and DeepTrader in the GSP (global stock pool) setting.
 
+## 📊 Results 
+
+![Cumulative Returns](assets/img/cumulative_returns.png)
+
 We evaluate the framework using the DJIA (Dow Jones Industrial Average) dataset and compare it with classical, ML-based and RL-based baselines. The model achieved a **59.87% annual return**, outperforming all previous benchmarks in GSP evaluation.
 
 However, when evaluated on Customizable Stock Pools (CSPs), T-RLPM struggles to generalize and its performance falls significantly below state-of-the-art levels, highlighting key limitations in masked learning dynamics when combined with transformer architectures.
