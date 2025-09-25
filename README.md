@@ -11,7 +11,7 @@ T-RLPM is a transformer-based reinforcement learning framework for dynamic portf
 
 ## 📊 Results 
 
-![Cumulative Returns](assets/img/cumulative_returns.png)
+![Cumulative Returns](cumulative_returns.png)
 
 We evaluate the framework using the DJIA (Dow Jones Industrial Average) dataset and compare it with classical, ML-based and RL-based baselines. The model achieved a **59.87% annual return**, outperforming all previous benchmarks in GSP evaluation.
 
